@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #607d8b;
+  --primary-color-dark: #455a64;
+  --primary-color-light: #cfd8dc;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #ff5252;
+  --accent-color-shadow: #d03a29;
+  --icon-text-color: #fff;
+  --divider-color: #bdbdbd;
+}
+
+* {
+  box-sizing: border-box;
+}

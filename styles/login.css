@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #607d8b;
+  --primary-color-dark: #455a64;
+  --primary-color-light: #cfd8dc;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #ff5252;
+  --accent-color-shadow: #d03a29;
+  --icon-text-color: #fff;
+  --divider-color: #bdbdbd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.element {
+  width: 600px;
+  height: 40vh;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.login {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.contenido {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #666;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+}
+.input_chk {
+  display: block;
+}
+.forgot_password {
+  font-size: ;
+  display: none;
+}
