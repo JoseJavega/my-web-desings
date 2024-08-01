@@ -1,17 +1,20 @@
 :root {
-  --primary-color: #607d8b;
+  --text-color-light: #cfd8dc;
+  --color-red: #d03a29cc;
   --primary-color-dark: #455a64;
-  --primary-color-light: #cfd8dc;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #ff5252;
-  --accent-color-shadow: #d03a29;
-  --icon-text-color: #fff;
-  --divider-color: #bdbdbd;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-image: url('../assets/img/background_blue01.jpg');
+  font-family: 'Roboto';
+  font-size: 16px;
 }
 
 .element {
@@ -22,8 +25,10 @@
 }
 
 .login {
+  color: var(--text-color-light);
   text-align: center;
   letter-spacing: 5px;
+  font-size: 4em;
 }
 .contenido {
   width: 100%;
@@ -35,11 +40,29 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   text-align: center;
+  font-size: 1.1em;
 }
+.form_lbl {
+  margin-top: 20px;
+  color: var(--text-color-light);
+}
+.form_input {
+  width: 80%;
+  line-height: 1.4em;
+  margin-top: 5px;
+  background-color: transparent;
+  border: 2px solid #666c;
+  border-left: 4px solid var(--color-red);
+}
+.form_input::placeholder {
+  color: #888;
+}
+
 .input_chk {
   display: block;
 }
 .forgot_password {
-  font-size: ;
-  display: none;
+  text-decoration: none;
+  color: var(--text-color-light);
+  font-weight: 600;
 }
